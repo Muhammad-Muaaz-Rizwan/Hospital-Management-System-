@@ -72,12 +72,3 @@ HospitalManagementSystem.exe
 └── README.md
 ```
 
-## Known Limitations
-
-- Data files (`doctor.txt`, `patient.txt`) are plain text with no encryption; the password only gates menu access within a session.
-- Windows-only due to use of `windows.h` and `system()` calls for console color/clear.
-- No input validation for most fields (e.g., non-numeric input for numeric fields may cause unexpected behavior).
-
-## License
-
-Add a license of your choice (e.g., MIT) if you plan to make this repository public.
